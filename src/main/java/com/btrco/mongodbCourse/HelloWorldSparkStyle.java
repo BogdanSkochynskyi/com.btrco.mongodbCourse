@@ -13,5 +13,11 @@ public class HelloWorldSparkStyle {
                 return "HELLO WORLD!";
             }
         });
+
+        Spark.get("/echo/:thing", new Route() {
+            public Object handle(Request request, Response response) throws Exception {
+                return request.params(":thing");
+            }
+        });
     }
 }
