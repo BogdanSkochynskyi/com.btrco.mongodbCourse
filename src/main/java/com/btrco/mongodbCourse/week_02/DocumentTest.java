@@ -1,4 +1,4 @@
-package com.btrco.mongodbCourse;
+package com.btrco.mongodbCourse.week_02;
 
 import org.bson.BsonDocument;
 import org.bson.BsonString;

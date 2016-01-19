@@ -1,10 +1,8 @@
-package com.btrco.mongodbCourse;
+package com.btrco.mongodbCourse.week_02;
 
 import com.mongodb.MongoClient;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
-import com.mongodb.client.model.*;
-import org.bson.BSON;
 import org.bson.Document;
 import org.bson.conversions.Bson;
 

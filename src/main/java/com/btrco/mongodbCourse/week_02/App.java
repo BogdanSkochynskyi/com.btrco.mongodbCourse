@@ -1,4 +1,4 @@
-package com.btrco.mongodbCourse;
+package com.btrco.mongodbCourse.week_02;
 
 import com.mongodb.*;
 import com.mongodb.client.MongoCollection;

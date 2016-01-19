@@ -1,4 +1,4 @@
-package com.btrco.mongodbCourse;
+package com.btrco.mongodbCourse.week_01;
 
 import freemarker.template.Configuration;
 import freemarker.template.Template;

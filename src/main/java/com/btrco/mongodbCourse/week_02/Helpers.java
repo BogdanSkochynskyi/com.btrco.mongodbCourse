@@ -1,4 +1,4 @@
-package com.btrco.mongodbCourse;
+package com.btrco.mongodbCourse.week_02;
 
 import org.bson.Document;
 import org.bson.codecs.DocumentCodec;
@@ -12,7 +12,7 @@ import java.io.StringWriter;
 public class Helpers {
     public static void printJson(Document document) {
         JsonWriter jsonWriter = new JsonWriter(new StringWriter(),
-                                               new JsonWriterSettings(JsonMode.SHELL, true));
+                                               new JsonWriterSettings(JsonMode.SHELL, false));
         new DocumentCodec().encode(jsonWriter, document, EncoderContext.builder()
                                                                        .isEncodingCollectibleDocument(true)
                                                                        .build());
